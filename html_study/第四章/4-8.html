@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>list 属性示例</title>
+	<meta charset="utf-8">
+</head>
+<body>
+text:<input type="text" name="greeting" list="greetings" >
+<!-- 使用style="display:none;"将datalist元素设定为不显示 -->
+<datalist id="greetings" style="display: none;">
+	<option value="Good Morning">Good Morning</option>
+	<option value="Hello">Hello</option>
+	<option value="Good Afternoon">Good Afternoon</option>
+</datalist>
+<form>
+	请输入指定格式的内容：<input pattern="[0-9][A-Z]{3}" name="part">
+	<input type="submit" >
+</form>
+</body>
+</html>
