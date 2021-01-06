@@ -1,3 +1,4 @@
+//第一个golang程序，hello world
 package main
 
 import "fmt"
