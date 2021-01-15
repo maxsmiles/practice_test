@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"net/http"
-
 	"github.com/PuerkitoBio/goquery"
+	"io/ioutil"
+	"net/http"
 )
 
 func main() {
@@ -18,6 +18,7 @@ func main() {
 		resp.Body.Close()
 		fmt.Println("出错")
 	}
+	fmt.Println(ioutil.ReadAll(resp.Body))
 	doc, err := goquery.NewDocumentFromReader(resp.Body)
 	if err != nil {
 		panic(err)
