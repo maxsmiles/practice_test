@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="box" hover-class="box-hover">
+  <view class="box1" hover-class="box1Hover" hover-stop-propagation="true">test</view>
+  测试</view>
+<view class="box2">
+  <view>测试微信小程序111</view>
+  <view>测试微信小程序222</view>
+</view>
+<view class="box3">
+  <text>测试微信小程序111</text>
+  <text>测试微信<text decode>&nbsp;</text>小程序222</text>
+</view>
+<text user-select="true" space="ensp">测试微信          小程序,测试微信小程序测试微信小程序测试微信小程序测试微信小程序测试微信小程序测试微信小程序测试微信小程序测试微信小程序 i will win!</text>
+<image class="img1" src="../../images/000.jpg"></image>
+<image src="/images/111.jpg" mode="widthFix" show-menu-by-longpress/>
+<image src="https://gss0.baidu.com/70cFfyinKgQFm2e88IuM_a/forum/w=580/sign=c828daadc8fcc3ceb4c0c93ba244d6b7/c572b999a9014c08e13e7e2a0a7b02087af4f48a.jpg"
+  mode="widthFix">网络图片</image>
+<view>
+  <navigator class="link" url="/pages/logs/logs" open-type="redirect">跳转到日志</navigator>
+</view>
+<image class="img2" src="../../images/000.jpg" mode="heightFix"></image>
