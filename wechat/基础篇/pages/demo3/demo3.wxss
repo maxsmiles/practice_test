@@ -1,0 +1,10 @@
+/* pages/demo3/demo3.wxss */
+.out{padding: 30rpx; box-sizing: border-box;}
+.row{display:flex;height: 200rpx;margin-bottom: 20rpx;}
+.pic{flex: 2;}
+.pic image{width: 100%;height: 100%;}
+
+.text{flex: 8;border-bottom: 1rpx solid #eee; padding-left: 10rpx;display: flex;
+flex-direction: column; justify-content: space-between;}
+.text .title{font-size: 38rpx;}
+.text .time{color: #999;}

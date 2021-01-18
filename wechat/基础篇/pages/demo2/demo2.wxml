@@ -1,0 +1,20 @@
+<!--pages/demo2/demo2.wxml-->
+<text>pages/demo2/demo2.wxml{{title}}</text>
+<view style="color:#888">{{content}}</view>
+<view>{{listarr}}</view>
+<view wx:if="{{day==1}}">周1</view>
+<view wx:elif="{{day==2}}">周2</view>
+<view wx:else>周3</view>
+<view wx:for="{{array}}" wx:key="index">
+  {{index}}: {{item.message}}
+</view>
+<block wx:for="{{[1, 2, 3]}}" wx:key="*this">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>
+<view bindtap="myTap">开始点击</view>
+<view style="width:300rpx;height:200rpx;background:pink;">
+  {{title}}
+</view>
+
+

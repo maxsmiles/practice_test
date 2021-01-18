@@ -19,3 +19,23 @@
   <navigator class="link" url="/pages/logs/logs" open-type="redirect">跳转到日志</navigator>
 </view>
 <image class="img2" src="../../images/000.jpg" mode="heightFix"></image>
+
+<scroll-view class="scroll2" scroll-y>
+  <view class="scrOut2">
+    <view class="scrBox">111</view>
+    <view class="scrBox">222</view>
+    <view class="scrBox">333</view>
+    <view class="scrBox">444</view>
+    <view class="scrBox">555</view>
+  </view>
+</scroll-view>
+
+<scroll-view scroll-x>
+  <view class="scrolout">
+    <view class="scrollbox4">11</view>
+    <view class="scrollbox4">22</view>
+    <view class="scrollbox4">33</view>
+    <view class="scrollbox4">44</view>
+    <view class="scrollbox4">55</view>
+  </view>
+</scroll-view>
