@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8">
+    <title>JS实现按下按键触发点击事件</title>
+</head>
+<script type="text/javascript" src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js">         
+    var input=document.getElementsByTagName("input");
+    input.addEventListener("keyup",function(event) {
+    event.preventDefault();
+    if(event.keyCode===13){
+        document.getElementsByTagName("button").click();
+    }
+  }   
+</script>
+<body>
+      <h3>按下 Enter 触发按钮点击事件</h3>
+      <p>选中输入框，然后按下"Enter" 就会触发按钮的点击事件。</p>
+      <div>
+         <input placeholder="输入一些文本" type="text"></input>
+         <button type="button" onclick="javascript:alert('你点击了我，或者按下了enter')">点击我或者按下enter键</button>
+      </div>    
+<body>
+</html>
