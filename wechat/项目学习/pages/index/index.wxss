@@ -1,4 +1,4 @@
-.header{width: 750rpx; height: 90rpx;border: 1px solid red;}
+.header{width: 750rpx; height: 90rpx;}
 .hdCon{display: flex;justify-content: space-between;align-items: center;height: 100%;}
 .hdCon navigator,.hdCon .kefu{height: 50rpx;}
 .hdCon image{height: 100%;}
